@@ -1,0 +1,66 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+*{
+  font-family: "Inconsolata";
+}
+
+body { 
+  margin: 0; 
+  padding: 0; 
+}
+
+#map { 
+  position: absolute; 
+  top: 0; 
+  bottom: 0; 
+  width: 100%; 
+  z-index:1;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    color: white; 
+    text-align: center;
+    line-height: 50px; 
+    z-index: 2;
+  }
+
+#logo {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index:2;
+}
+
+button {
+  position: absolute;
+  z-index: 2;
+}
+
+#locate-button {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  background-color: white;
+  border: black;
+  border-radius: 30px;
+  color: black;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 16px;
+  z-index = 1;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+#locate-button:active {
+  background-color: black;
+  color: white;
+}
